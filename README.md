@@ -1,11 +1,14 @@
-# LoStruct_RAD
+	# LoStruct_RAD
 
-* filter_vcf.sh
+	* LoStruct_RAD.R
    
-   Filter SNPs for RAD dataset
-* Fst.sh
+	   Identify putative inversions based on local population structure (LoStruct)
+	* Map_plot.R
    
-   Calculate Fst between ecotypes
-* LoStruct_RAD.r
+	   Plot genotype frequency on map
+	* run_BayPass.sh, vcf2baypass.pl, pod.R
    
-   Local structure analyses
+	   Genome-environment association analysis using BayPass 2.1
+	* BayPass_plot.R
+   
+	   Plot BayPass results for both SNPs and inversions
